@@ -1,4 +1,4 @@
-# DS_002
+# Prof. Goodwin's DS_002 repository
 
 This example of a GitHub respository to use in Deepnote will be loaded with code following "Data Science from Scratch" by Joel Grus.
 
@@ -6,6 +6,7 @@ This example of a GitHub respository to use in Deepnote will be loaded with code
 
 ### dgoodwin.linear_algebra
 
+```
 FUNCTIONS
     add(v: List[float], w: List[float]) -> List[float]
         Adds corresponding elements
@@ -51,3 +52,5 @@ FUNCTIONS
     
     vector_sum(vectors: List[List[float]]) -> List[float]
         Sums all corresponding elements
+        
+```
