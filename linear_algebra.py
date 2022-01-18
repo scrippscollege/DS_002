@@ -2,7 +2,7 @@ from typing import List
 
 Vector = List[float]
 
-# hi!
+# hi from Deepnote!
 
 height_weight_age = [70,  # inches,
                      170, # pounds,
