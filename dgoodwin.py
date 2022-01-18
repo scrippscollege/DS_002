@@ -2,6 +2,8 @@ from typing import List
 
 Vector = List[float]
 
+# hi!
+
 height_weight_age = [70,  # inches,
                      170, # pounds,
                      40 ] # years
