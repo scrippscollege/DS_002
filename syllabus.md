@@ -8,7 +8,7 @@
 | Office Hours | MW 1:00-3:00pm                                               |
 | Discord      | https://discord.gg/gtMVkAMV                                  |
 | Textbook     | **[Data Science from Scratch, 2nd Edition](https://www.oreilly.com/library/view/data-science-from/9781492041122/)** <br />Joel Grus. <br />ISBN: [9781492041139](https://www.oreilly.com/library/view/data-science-from/9781492041122/) |
-| Classroom    | [Zoom](https://scrippscollege.zoom.us/j/7350754288?pwd=dExIZGFJYnV5Y0tTY2V1WVFXanFBdz09), +Steele 229 |
+| Classroom    | [Zoom](https://scrippscollege.zoom.us/j/7350754288?pwd=dExIZGFJYnV5Y0tTY2V1WVFXanFBdz09), Steele 229 |
 | Description  | This course is the second part of a two-semester introduction to computer programming and data science. Students will explore, using Python and other tools the nuances of gathering, visualizing and analyzing data to gain insight and intuition with data. Students will be introduced to various data manipulation/analysis, and statistical methods by building their own code from scratch. They will also consider the ethical implications and limitations of creating models of data. |
 
 ## Course Goals
