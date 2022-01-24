@@ -5,6 +5,27 @@ and won't be used anywhere else in the book.
 """
 # type: ignore
 
+import tabulate
+
+# a bit from https://nyu-cds.github.io/courses/exercises/Basic-python-1/
+banded_birds = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
+        ['A5', 10], ['A6', 22], ['A7', 30], ['A8', 19],
+		['B1', 145], ['B2', 27], ['B3', 36], ['B4', 25],
+		['B5', 9], ['B6', 38], ['B7', 21], ['B8', 12],
+		['C1', 122], ['C2', 87], ['C3', 36], ['C4', 3],
+		['D1', 0], ['D2', 5], ['D3', 55], ['D4', 62],
+		['D5', 98], ['D6', 32]]
+
+birds_questions = [
+    ["How many sites are there?",None]
+    ["How many birds were counted at the 7th site?",None]
+    ["How many birds were counted at the last site?",None]
+    ["What is the total number of birds counted across all sites?",None]
+    ["What is the average number of birds seen on a site?",None]
+    ["How many birds were counted on sites with codes beginning with C?",None]
+    ]
+
+
 users = [
     { "id": 0, "name": "Hero" },
     { "id": 1, "name": "Dunn" },
@@ -254,4 +275,3 @@ words_and_counts = Counter(word
 for word, count in words_and_counts.most_common():
     if count > 1:
         print(word, count)
-
