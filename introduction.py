@@ -19,12 +19,13 @@ banded_birds = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
 		['D5', 98], ['D6', 32]]
 
 birds_questions = [
-    ["How many sites are there?",None],
-    ["How many birds were counted at the 7th site?",None],
-    ["How many birds were counted at the last site?",None],
-    ["What is the total number of birds counted across all sites?",None],
-    ["What is the average number of birds seen on a site?",None],
-    ["How many birds were counted on sites with codes beginning with C?",None]
+    ["Q","A"],
+    ["How many sites are there?", None],
+    ["How many birds were counted at the 7th site?", None],
+    ["How many birds were counted at the last site?", None],
+    ["What is the total number of birds counted across all sites?", None],
+    ["What is the average number of birds seen on a site?", None],
+    ["How many birds were counted on sites with codes beginning with C?", None]
     ]
 
 assert banded_birds[0][1] == 28, "the first item in banded_birds was unexpected"
