@@ -7,6 +7,8 @@ and won't be used anywhere else in the book.
 
 import tabulate
 
+DEBUG = False
+
 # a bit from https://nyu-cds.github.io/courses/exercises/Basic-python-1/
 banded_birds = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
         ['A5', 10], ['A6', 22], ['A7', 30], ['A8', 19],
@@ -99,9 +101,10 @@ def foaf_ids_bad(user):
 
 assert foaf_ids_bad(users[0]) == [0, 2, 3, 0, 1, 3]
 
-print(friendships[0])  # [1, 2]
-print(friendships[1])  # [0, 2, 3]
-print(friendships[2])  # [0, 1, 3]
+if DEBUG:
+    print(friendships[0])  # [1, 2]
+    print(friendships[1])  # [0, 2, 3]
+    print(friendships[2])  # [0, 1, 3]
 
 
 assert friendships[0] == [1, 2]
@@ -121,7 +124,8 @@ def friends_of_friends(user):
     )
 
 
-print(friends_of_friends(users[3]))               # Counter({0: 2, 5: 1})
+if DEBUG:
+    print(friends_of_friends(users[3]))               # Counter({0: 2, 5: 1})
 
 
 assert friends_of_friends(users[3]) == Counter({0: 2, 5: 1})
@@ -275,6 +279,8 @@ words_and_counts = Counter(word
                            for user, interest in interests
                            for word in interest.lower().split())
 
-for word, count in words_and_counts.most_common():
-    if count > 1:
-        print(word, count)
+
+if DEBUG:
+    for word, count in words_and_counts.most_common():
+        if count > 1:
+            print(word, count)
