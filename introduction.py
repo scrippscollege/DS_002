@@ -29,7 +29,7 @@ birds_questions = [
     ]
 
 assert banded_birds[0][1] == 28, "the first item in banded_birds was unexpected"
-assert len(birds_questions) == 6, "Wrong number of questions"
+assert len(birds_questions) == 7, "Wrong number of birds_questions"
 
 
 users = [
