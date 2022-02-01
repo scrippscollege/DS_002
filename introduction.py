@@ -22,6 +22,15 @@ banded_birds = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
 		['C1', 122], ['C2', 87], ['C3', 36], ['C4', 3],
 		['D1', 0], ['D2', 5], ['D3', 55], ['D4', 62],
 		['D5', 98], ['D6', 32]]
+ 
+# generate some random lat/lon data
+# import random
+#
+# latlon = []
+# for i in range( len(vals) ):
+#   lat = random.randrange(34050,34150,5) / 1000.0
+#   lon = random.randrange(117550,117850,5) / -1000.0
+#   latlon.append( [lat,lon] )
 
 locations = [[34.115, -117.765],
  [34.095, -117.715],
