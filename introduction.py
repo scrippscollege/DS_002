@@ -22,7 +22,7 @@ banded_birds = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],
 		['C1', 122], ['C2', 87], ['C3', 36], ['C4', 3],
 		['D1', 0], ['D2', 5], ['D3', 55], ['D4', 62],
 		['D5', 98], ['D6', 32]]
- 
+
 # generate some random lat/lon data
 # import random
 #
@@ -72,6 +72,18 @@ birds_questions = [
 assert banded_birds[0][1] == 28, "the first item in banded_birds was unexpected"
 assert len(birds_questions) == 7, "Wrong number of birds_questions"
 
+# ordinal data
+# non-voters set to neutral
+chocolate = ['tolerate','tolerate',
+    'neutral',
+    'like','like','like','like','like','like','like','like',
+    'love','love','love','love','love']
+
+noirdata = [
+    ["haircolor","chocolate","hometownTemp","hometownDistance"],
+    ["Dirty blonde","Like",26,2766],
+    ["Brown","Love",50,14]
+]
 
 users = [
     { "id": 0, "name": "Hero" },

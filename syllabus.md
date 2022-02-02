@@ -96,48 +96,48 @@ I will lean heavily on the content in DSfS. Some of the material in this course 
    1. CH01 Introduction
    2. CH01+ Introduction: GitHub and Deepnote
       1. Class Exercise: Use your GitHub code in Deepnote to visualize the class composition by school
-2. W02 01/31
+2. W03 01/31
    1. CH02 A Crash Course in Python, pt1
    2. CH02 A Crash Course in Python, pt2
       1. Class Exercise: Use your GitHub code in Deepnote
-3. W03 02/07
+3. W04 02/07
    1. Python Assignment DUE BEFORE CLASS
    2. CH03 [Visualizing Data](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/visualization.py)
       1. Video: [Data Viz, Computerphile](https://youtu.be/j6ClFJhnG18)
    3. CH04 [Linear Algebra](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/linear_algebra.py)
       1. Exercise
-4. W04 02/14
+4. W05 02/14
    1. Viz Assignment DUE BEFORE CLASS
    2. CH05 [Statistics](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/statistics.py)
    3. CH06 [Probability](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/probability.py)
       1. Coinflip Class Exercise, Monty Hall Problem
-1. W05 02/21
+1. W06 02/21
 
    1. Pandas Assignment DUE BEFORE CLASS
    2. CH07 [Hypothesis and Inference](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/inference.py)
    3. CH08 [Gradient Descent](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/gradient_descent.py)
       1. Class Exercise
-2. W06 02/28
+2. W07 02/28
 
    1. Assignment DUE BEFORE CLASS
    2. CH09 [Getting Data](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/getting_data.py)
    3. CH10 [Working With Data](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/working_with_data.py)
       1. Class Exercise
-8. W07 03/07
+8. W08 03/07
 
    1. Getting data Assignment DUE BEFORE CLASS
    1. CH11 [Machine Learning](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/machine_learning.py)
    2. CH12 [k-Nearest Neighbors](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/k_nearest_neighbors.py)
       1. Class Exercise
 9. W09 03/14 SPRING BREAK
-10. W08 03/21
+10. W10 03/21
    1. KNN Assignment DUE BEFORE CLASS
    2. CH13 [Naive Bayes](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/naive_bayes.py)
       1. Video: [Bayes Theorem](https://youtu.be/HZGCoVF3YvM)
    3. CH14 [Simple Linear Regression](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/simple_linear_regression.py)
       1. Video: [Simple Linear Regression Formula](https://youtu.be/3g-e2aiRfbU) 
       2. Class Exercise
-11. W10 03/28
+11. W11 03/28
 
     1. Lineasr Regression Assignment DUE BEFORE CLASS
     2. CH15 [Multiple Regression](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/multiple_regression.py)
@@ -145,25 +145,25 @@ I will lean heavily on the content in DSfS. Some of the material in this course 
     3. CH16 [Logistic Regression](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/logistic_regression.py)
        1. Video: [Data Regression](https://youtu.be/ek0yyL8iV7I)
        2. Class Exercise
-12. W11 04/04
+12. W12 04/04
 
     1. Regression Assignment DUE BEFORE CLASS
     1. CH17 [Decision Trees](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/decision_trees.py)
     2. CH18 [Neural Networks](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/neural_networks.py)
        1. Class Exercise
-13. W12 04/11
+13. W13 04/11
 
     1. Neural Networks Assignment DUE BEFORE CLASS
     1. CH19 [Deep Learning]
     2. CH20 [Clustering](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/clustering.py)
        1. Class Exercise
-14. W13 04/18
+14. W14 04/18
 
     1. Clustering Assignment DUE BEFORE CLASS
     1. CH21 [Natural Language Processing](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/nlp.py)
     2. CH22 [Network Analysis](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/network_analysis.py)
        1. Class Exercise
-15. W14 04/25
+15. W15 04/25
 
     1. NLP Assignment DUE BEFORE CLASS
     1. CH23 [Recommender Systems](https://github.com/joelgrus/data-science-from-scratch/blob/master/scratch/recommender_systems.py)
