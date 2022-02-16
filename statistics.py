@@ -95,7 +95,7 @@ def data_range(xs: List[float]) -> float:
 
 assert data_range(num_friends) == 99
 
-from scratch.linear_algebra import sum_of_squares
+from dgoodwin.linear_algebra import sum_of_squares
 
 def de_mean(xs: List[float]) -> List[float]:
     """Translate xs by subtracting its mean (so the result has mean 0)"""
@@ -167,4 +167,3 @@ daily_hours_good = [dm / 60 for dm in daily_minutes_good]
 
 assert 0.57 < correlation(num_friends_good, daily_minutes_good) < 0.58
 assert 0.57 < correlation(num_friends_good, daily_hours_good) < 0.58
-
