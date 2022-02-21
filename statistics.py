@@ -2,17 +2,20 @@
 num_friends = [100.0,49,41,40,25,21,21,19,19,18,18,16,15,15,15,15,14,14,13,13,13,13,12,12,11,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,8,8,8,8,8,8,8,8,8,8,8,8,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 
 from collections import Counter
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
+from dgoodwin.linear_algebra import sum_of_squares
+from dgoodwin.linear_algebra import dot
 
 friend_counts = Counter(num_friends)
 xs = range(101)                         # largest value is 100
 ys = [friend_counts[x] for x in xs]     # height is just # of friends
-# plt.bar(xs, ys)
-# plt.axis([0, 101, 0, 25])
-# plt.title("Histogram of Friend Counts")
-# plt.xlabel("# of friends")
-# plt.ylabel("# of people")
-# # plt.show()
+plt.bar(xs, ys)
+plt.axis([0, 101, 0, 25])
+plt.title("Histogram of Friend Counts")
+plt.xlabel("# of friends")
+plt.ylabel("# of people")
+# plt.show()
 
 num_points = len(num_friends)               # 204
 
@@ -95,7 +98,7 @@ def data_range(xs: List[float]) -> float:
 
 assert data_range(num_friends) == 99
 
-from dgoodwin.linear_algebra import sum_of_squares
+
 
 def de_mean(xs: List[float]) -> List[float]:
     """Translate xs by subtracting its mean (so the result has mean 0)"""
@@ -131,7 +134,7 @@ daily_minutes = [1,68.77,51.25,52.08,38.36,44.54,57.13,51.4,41.42,31.22,34.76,54
 
 daily_hours = [dm / 60 for dm in daily_minutes]
 
-from dgoodwin.linear_algebra import dot
+
 
 def covariance(xs: List[float], ys: List[float]) -> float:
     assert len(xs) == len(ys), "xs and ys must have same number of elements"
