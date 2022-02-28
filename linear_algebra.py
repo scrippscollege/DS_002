@@ -204,4 +204,4 @@ assert get_row(id,2) == [0, 0, 1, 0, 0]
 assert get_column(id,2) == get_row(id,2)
 assert identity_matrix(5) == id
 assert make_matrix(5,5, lambda i,j: 1 if i == j else 0) == id
-assert shape(id) == (5,5)
+assert shape(id) == (5,4)
