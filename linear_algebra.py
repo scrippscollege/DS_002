@@ -1,4 +1,24 @@
+# Code based on Data Science from Scratch
+# with corrections for Scripps College
+# DS002, Spring 2022
+# Professor Douglas Goodwin
+
+# # # # # # # # # # # # # # # # # # # # # # # #
+# Imports
+# # # # # # # # # # # # # # # # # # # # # # # #
+
+# python imports
 from typing import List
+import math
+
+# local code imports
+
+# other imports
+import matplotlib.pyplot as plt
+
+# # # # # # # # # # # # # # # # # # # # # # # #
+# Let's go!
+# # # # # # # # # # # # # # # # # # # # # # # #
 
 Vector = List[float]
 
@@ -69,7 +89,7 @@ def sum_of_squares(v: Vector) -> float:
 
 assert sum_of_squares([1, 2, 3]) == 14  # 1 * 1 + 2 * 2 + 3 * 3
 
-import math
+
 
 def magnitude(v: Vector) -> float:
     """Returns the magnitude (or length) of v"""
